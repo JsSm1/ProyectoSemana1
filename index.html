@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!-- es un formato de codificación de caracteres-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!--el dispositivo se ajusta al ancho de la pantalla -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title> TESLA BAND </title>
+
+    <link rel="shortcut icon" href="imagenes/loguito.png" type="image/x-icon">
+    <!--rel relaciona un link para colocar una imagen href especifica la url-->
+    <!--semantica html ayudan a definir la estructura del documento y
+    permiten que las páginas web sean mejor indexadas por los buscadores.-->
+
+    <!--en la etiqueta nav puedo poner las paginas a las cuales me voy a dirigir de mi sitio web-->
+    <!--en section puedo colocar mi contenido-->
+    <!--article sirve para colocar un articulo :)-->
+    <!--aside sirve para colocar publicidad-->
+    <!--en footer podemos colocar un formulario contacto o citas de pagina -->
+
+</head>
+
+<body>
+    <header>
+        <div class="imgPrincipal">
+            <img src="imagenes/tesla-prin2.png" alt="" height="150px" width="100%">
+        </div>
+
+        <nav>
+            <ul class="barraNavegacion">
+
+                <li class="Navegacion"><a target="blank" href="pagmenu1.html"> INICIO</a> </li>
+                <li class="Navegacion"> <a href="#section1">MUSIC</a></li>
+                <li class="Navegacion">GALERIA</li>
+                <li class="Navegacion"> <a href="#section3">VIDEOS</a></li>
+
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <section>
+        <!--parallax es como un css-->
+        <article>
+            <div class="parallax">
+
+                <div class=" cajaparallax tituloParallax">
+                    <h2> TESLA OFFICIAL </h2>
+                    <br><br><br><br><br>
+                    <span class="parrafoparallax">
+                        <a href="">Get Now!</a>
+                    </span>
+
+                </div>
+            </div>
+        </article>
+    </section>
+    <br>
+    <section>
+
+        <article>
+            <div class="informacion">
+                <p>
+
+                    <span class="titulo"> hola hola!!!</span>
+                    <br><br><br>
+
+                    Retumba un escenario con el sonido de una batería. Marca el ritmo de las pulsaciones de miles de
+                    personas que contemplan, con la respiración encogida, los sueños que ahora recorren sus mentes. Las
+                    melodías más famosos de todos los tiempos se conjuran en forma de himnos para momentos de melancolía
+                    con
+                    la fuerza de exigirnos un poco más cuando nos encontramos ante una hazaña que estamos decididos a
+                    cumplir. En una jornada como el Día Mundial del Rock, es hora de que sepamos cómo viven y vivían las
+                    estrellas del rock.
+                    <br><br><br>
+
+                    <span class="titulo2"> ¿Qué estrellas del rock toca visitar en el Día Mundial del Rock?</span>
+                    <br><br>
+
+                    Son muchos los candidatos que hemos tenido que considerar para esta lista. La oficina parecía un
+                    lugar
+                    de otra época. Con canciones sonando a todo volumen y transportándonos a una época que algunos
+                    afirmarán
+                    que fue mejor.
+
+                    La música es capaz de revolucionar nuestros latidos. Por ello nos hemos dejado guiar por su
+                    consonancia
+                    a la hora de escoger a los candidatos. Solo aquellos que con sus melodías nos hicieron sentir
+                    inmortales
+                    han tenido un lugar en este espacio. La piel de gallina es mejor criterio que cualquier otro para
+                    afirmar que queremos celebrar que todavía estamos vivos.
+
+                </p>
+
+                <img src="./imagenes/teslacontenido.jpg" alt="Tesla">
+
+
+            </div>
+        </article>
+    </section>
+
+    <!-- seccion albumes -->
+    <section id="section1" class="contentMusic">
+        <!-- primer container -->
+        <h2> ALBUMS </h2>
+        <div class="container">
+
+            <div class="card" onclick="album1()">
+                <img src="imagenes/Mechanical Resonance-primera1.jpg" alt="">
+                <h4>Mechanical Resonance</h4>
+                <p>1986</p>
+                <a href="#">leer más...</a>
+            </div>
+
+
+            <div class="card" onclick="album2()">
+                <img src="imagenes/tesla-album2.jpg" alt="">
+                <h4>Psychotic Supper</h4>
+                <p>1991</p>
+                <a href="#">leer más...</a>
+            </div>
+
+            <div class="card" onclick="album3()">
+                <img src="imagenes/Bust a Nut3.jpg" alt="">
+                <h4>Bust a Nut</h4>
+                <p>1994</p>
+                <a href="#">leer más...</a>
+            </div>
+        </div>
+        <!-- contenedor 2 -->
+
+
+        <div class="container">
+            <div class="card" onclick="album4()">
+                <img  src="imagenes/Forever More album4.jpg" alt="" >
+                <h4>Forever More</h4>
+                <p>2018</p>
+                <a href="#">leer más...</a>
+            </div>
+
+            <div class="card" onclick="album5()">
+                <img src="imagenes/Simplicity5.jpg" alt="">
+                <h4>Simplicity</h4>
+                <p>2014</p>
+                <a href="#">leer más...</a>
+            </div>
+
+            <div class="card" onclick="album6()">
+                <img src="imagenes/Shock6.jpg" alt="">
+                <h4>Shock</h4>
+                <p>2019</p>
+                <a href="#">leer más...</a>
+            </div>
+        </div>
+    </section>
+    <section id="section3">
+        <div class="videos">
+            <div class="imagensection">
+                <img src="imagenes/imagen principal.png" alt="">
+            </div>
+            <div class="iframePrincipal">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/8s6DDofIdkI"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <!-- <div class="iframes"> 
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zMk7nkM495g"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DBBXxkLTsLU"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+
+
+                </div>-->
+        </div>
+    </section>
+    <footer>
+
+        <div class="final">
+            <p> © nombre de disquera</p>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
