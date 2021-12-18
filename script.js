@@ -1,6 +1,7 @@
 
-
-alert("BIENVENIDO!!!");
+ window.onload = () => {
+     alert("BIENVENIDO!!!");
+ }
 
 const album1 = () => {
     albuncito1 = alert("Este es el album MECHANICAL RESONANCE ");
